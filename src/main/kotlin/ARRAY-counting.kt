@@ -5,3 +5,30 @@ fun main() {
     var arrRes = arr.filter { it == m }
     println(arrRes.size)
 }
+/*
+fun main() {
+    val nums = IntArray(readLine()!!.toInt()) { readLine()!!.toInt() }
+    val repeat = readLine()!!.toInt()
+    var times = 0
+    for (num in nums)
+        if (num == repeat) times++
+    println(times)
+}
+
+fun main() {
+    val size = readLine()!!.toInt()
+    val array = IntArray(size)
+
+    for (i in 0..array.lastIndex) {
+        array[i] = readLine()!!.toInt()
+    }
+    val m = readLine()!!.toInt()
+    var count = 0
+    for (i in 0..array.lastIndex) {
+        if (array[i] == m) {
+            count++
+        }
+    }
+    println(count)
+}
+*/
