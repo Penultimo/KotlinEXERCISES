@@ -31,4 +31,23 @@ fun main() {
     }
     println(count)
 }
+
+fun main() {
+    val count = readLine()!!.toInt()
+    val array = IntArray(count)
+
+    var result = 0
+
+    for (i in 0..array.lastIndex) {
+        array[i] = readLine()!!.toInt()
+    }
+
+    val num = readLine()!!.toInt()
+
+    for (i in 0..array.lastIndex) {
+        if (num == array[i]) result += 1
+    }
+    print(result)
+}
+
 */
